@@ -42,6 +42,11 @@ let icon = document.querySelector("#exIcon");
 icon.addEventListener("click",(e) => {
     e.preventDefault();
     [dropdown1.value,dropdown2.value] = [dropdown2.value,dropdown1.value];
+    let countryCode1 = countryList[dropdown1.value];
+    flag1.setAttribute("src",url1+countryCode1+url2);
+    let countryCode2 = countryList[dropdown2.value];
+    flag2.setAttribute("src",url1+countryCode2+url2);
+
 });
 
 // Using currency change API, getting the currency exchange rate
