@@ -27,6 +27,7 @@ A clean, minimal currency converter web app built with HTML, CSS, and vanilla Ja
 
 ```
 currency-converter/
+├── README.md      # Readme file
 ├── index.html      # Main HTML structure
 ├── style.css       # Styling
 ├── script.js       # Main JS logic
